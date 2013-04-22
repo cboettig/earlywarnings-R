@@ -29,6 +29,55 @@ NULL
 #' @format TBA
 #' @references See citation("earlywarnings")
 #' @source TBA
-#' @keywords datasetspl
+#' @keywords datasets
 #' @examples #
 NULL
+
+#' chemostat data set
+#'
+#' @name chemostat
+#' @docType data
+#' @format TBA
+#' @references See citation("earlywarnings")
+#' @source TBA
+#' @keywords datasets
+#' @examples #
+NULL
+
+#' glaciation data set
+#'
+#' @name glaciation
+#' @docType data
+#' @format TBA
+#' @references See citation("earlywarnings")
+#' @source TBA
+#' @keywords datasets
+#' @examples #
+NULL
+
+#' ibms data set
+#'
+#' @name ibm_critical
+#' @docType data
+#' @format TBA
+#' @references See citation("earlywarnings")
+#' @source TBA
+#' @keywords datasets
+#' @examples #
+NULL
+
+
+#' ibms data set
+#'
+#' @name ibm_stable
+#' @docType data
+#' @format TBA
+#' @references See citation("earlywarnings")
+#' @source TBA
+#' @keywords datasets
+#' @examples #
+NULL
+
+
+
+

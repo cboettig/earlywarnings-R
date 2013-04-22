@@ -2,16 +2,22 @@ Package: earlywarnings
 Type: Package
 Title: Early Warning Signals Toolbox for Detecting Critical Transitions in
     Timeseries
-Version: 1.0.46
+Version: 1.0.47
 Date: 2013-04-10
 Author: Vasilis Dakos <vasilis.dakos@gmail.com>, with contributions from S.R.
-    Carpenter, T. Cline, L. Lahti
+    Carpenter, T. Cline, L. Lahti, C. Boettiger
 Maintainer: Vasilis Dakos <vasilis.dakos@gmail.com>
 Description: The Early-Warning-Signals Toolbox provides methods for estimating
     statistical changes in timeseries that can be used for identifying nearby
     critical transitions. Based on Dakos et al (2012) Methods for Detecting
     Early Warnings of Critical Transitions in Time Series Illustrated Using
     Simulated Ecological Data. PLoS ONE 7(7):e41010
+Imports:
+    methods,
+    odesolve,
+    psych,
+    reshape2,
+    plyr
 Depends:
     R (>= 2.14.0),
     fields,
@@ -44,3 +50,16 @@ Collate:
     'sensitivity_ews.R'
     'surrogates_ews.R'
     'utils.R'
+    'LSN.R'
+    'bootstrap_trend.R'
+    'compare.R'
+    'constOU.R'
+    'gauss.R'
+    'get_replicates.R'
+    'indicators.R'
+    'lik_ratios.R'
+    'parameter_bootstraps.R'
+    'roc_data.R'
+    'stability_model.R'
+    'summary_statistic.R'
+    'warningtrend.R'

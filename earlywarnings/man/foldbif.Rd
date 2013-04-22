@@ -16,5 +16,4 @@
   See citation("earlywarnings")
 }
 \keyword{datasets}
-\keyword{datasetspl}
 
