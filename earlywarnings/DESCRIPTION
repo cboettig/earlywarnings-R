@@ -14,7 +14,7 @@ Description: The Early-Warning-Signals Toolbox provides methods for estimating
     Simulated Ecological Data. PLoS ONE 7(7):e41010
 Imports:
     methods,
-    odesolve,
+    deSolve,
     psych,
     reshape2,
     plyr

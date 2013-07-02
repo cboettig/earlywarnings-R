@@ -10,6 +10,7 @@
 #' @param pars numeric of parameters named Ro, theta, and sigma
 #' @return a list with values Ex, the expected x value, and 
 #' Vx, the expected variance
+#' @import deSolve
 #' @keywords internal
 LSN <- function(Xo, to, t1, pars){
 
