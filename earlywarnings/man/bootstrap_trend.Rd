@@ -28,7 +28,7 @@
 }
 \examples{
 data(ibms)
-bootstrap_trend(ibm_critical, window_var, method="pearson", rep=10)
+bootstrap_trend(ibm_critical, window_var, method="pearson", reps=10)
 }
 \seealso{
   \link{warningtrend}

@@ -11,7 +11,7 @@
 #' @seealso \link{warningtrend}
 #' @examples
 #' data(ibms)
-#' bootstrap_trend(ibm_critical, window_var, method="pearson", rep=10)
+#' bootstrap_trend(ibm_critical, window_var, method="pearson", reps=10)
 #' @export
 bootstrap_trend <- function(X, indicator, ..., reps=100){
   A <- stability_model(X, "OU")
